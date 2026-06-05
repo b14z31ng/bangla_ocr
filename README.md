@@ -739,9 +739,7 @@ docker run -p 8501:8501 bangla-ocr
 
 | Field | Details |
 | --- | --- |
-| Name | Your Name |
-| Institution | Your University / Department |
-| Course | Machine Learning / Deep Learning Assignment |
-| Email | your.email@example.com |
-| GitHub | https://github.com/your-username |
+| Name | Md. Reshad Romim Khan |
+| Course | Certificate on Machine Learning / Deep Learning |
+| Email | reshadromim013@gmail.com |
 
