@@ -65,6 +65,7 @@ project/
 ├── labels.json
 ├── model_info.json
 ├── charechter_map.json
+├── mlflow.db
 ├── models/
 │   └── cnn_model.pth
 ├── plots/
@@ -74,9 +75,6 @@ project/
 │   ├── validation_loss.png
 │   ├── confusion_matrix.png
 │   └── classification_report.png
-├── artifacts/
-│   └── mlflow/
-└── screenshots/
 ```
 
 ### Key files and folders
@@ -91,7 +89,6 @@ project/
 | `models/cnn_model.pth` | Best saved model checkpoint |
 | `plots/` | Training and evaluation figures |
 | `artifacts/` | MLflow-related outputs and saved experiment artifacts |
-| `screenshots/` | Placeholder directory for application and MLflow screenshots |
 
 ## 5. Dataset Description
 
@@ -386,15 +383,6 @@ This project uses MLflow to make experiments reproducible and auditable.
 | `plots/training_accuracy.png` | Accuracy curve |
 | `plots/confusion_matrix.png` | Class-level evaluation matrix |
 
-### MLflow screenshot placeholders
-
-Replace these placeholders with screenshots captured from your local MLflow server.
-
-![MLflow Dashboard](screenshots/mlflow_dashboard.png)
-![Experiment List](screenshots/mlflow_experiment_list.png)
-![Metrics Page](screenshots/mlflow_metrics_page.png)
-![Run Details](screenshots/mlflow_run_details.png)
-
 ## 11. Results and Evaluation
 
 The evaluation package is designed to show both training dynamics and class-level behavior. The saved model metadata indicates a final training accuracy of `0.9132` and a best validation accuracy of `0.9335`.
@@ -560,15 +548,6 @@ The Streamlit application provides the interactive OCR front end. It lets the us
 5. The application reconstructs the final word.
 6. The UI displays the Top-5 probabilities for interpretation.
 
-### Streamlit screenshot placeholders
-
-Replace these images with screenshots from the running app.
-
-![Main UI](screenshots/main_ui.png)
-![Segmentation Output](screenshots/segmentation_output.png)
-![Prediction Results](screenshots/prediction_results.png)
-![Top-5 Probability Chart](screenshots/top5_probability_chart.png)
-
 ## 14. Top-5 Probability Visualization
 
 The application does not stop at the most likely class. Instead, it shows the five most probable predictions for each segmented character.
@@ -635,11 +614,6 @@ docker run -p 8501:8501 bangla-ocr
 
 The repository currently stores the Docker recipe as `dockerfile` in lowercase. If you want to use the exact build command above without specifying a custom file name, rename it to `Dockerfile`. Otherwise, build with `docker build -f dockerfile -t bangla-ocr .`.
 
-### Docker screenshot placeholders
-
-![docker images](screenshots/docker_images.png)
-![docker ps](screenshots/docker_ps.png)
-![Running OCR application](screenshots/docker_running_app.png)
 
 ## 16. Installation
 
@@ -771,6 +745,3 @@ docker run -p 8501:8501 bangla-ocr
 | Email | your.email@example.com |
 | GitHub | https://github.com/your-username |
 
----
-
-If you are submitting this project academically, replace the placeholder author information and add your actual screenshots before final submission.
