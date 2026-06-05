@@ -2,7 +2,6 @@ artifacts/
 BanglaLekha-Isolated/
 mlruns/
 models/
-plots/
 app_backup.py
 *.html
 *.zip
