@@ -1,0 +1,8 @@
+{
+    "model_class": "BanglaCNN",
+    "num_classes": 84,
+    "total_params": 2529556,
+    "trainable_params": 2529556,
+    "final_train_accuracy": 0.9131874416784564,
+    "best_val_accuracy": 0.9335360163751844
+}
