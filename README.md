@@ -405,23 +405,11 @@ This curve reflects the model's generalization capability on unseen data. It is 
 
 Training loss measures optimization progress. A decreasing loss curve indicates that the classifier is improving its predictions and minimizing the cross-entropy objective over time.
 
-### Validation Loss
-
-![Validation Loss](plots/validation_loss.png)
-
-Validation loss is used to judge whether the model remains stable on unseen samples. It is also a useful signal for learning-rate scheduling and checkpoint selection.
-
 ### Confusion Matrix
 
 ![Confusion Matrix](plots/confusion_matrix.png)
 
 The confusion matrix provides class-level performance insight. It helps identify which Bangla characters are commonly confused and where the model may need more data, better augmentation, or architectural changes.
-
-### Classification Report
-
-![Classification Report](plots/classification_report.png)
-
-The classification report summarizes precision, recall, F1 score, and support for each class. It is useful for identifying whether the model performs consistently across common and rare characters.
 
 ### Evaluation Summary
 
