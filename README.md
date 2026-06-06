@@ -389,37 +389,37 @@ The evaluation package is designed to show both training dynamics and class-leve
 
 ### Training Accuracy
 
-![Training Accuracy](https://chatgpt.com/c/plots/training_accuracy.png)
+![Training Accuracy](plots/training_accuracy.png)
 
 This curve shows how quickly the model learns discriminative character features during training. A steadily rising trend indicates that the CNN is fitting the handwriting patterns effectively and converging toward a stable solution.
 
 ### Validation Accuracy
 
-![Validation Accuracy](https://chatgpt.com/c/plots/validation_accuracy.png)
+![Validation Accuracy](plots/validation_accuracy.png)
 
 This curve reflects the model's generalization capability on unseen data. It is especially useful for detecting overfitting when compared against the training accuracy curve.
 
 ### Training Loss
 
-![Training Loss](https://chatgpt.com/c/plots/training_loss.png)
+![Training Loss](plots/training_loss.png)
 
 Training loss measures optimization progress. A decreasing loss curve indicates that the classifier is improving its predictions and minimizing the cross-entropy objective over time.
 
 ### Validation Loss
 
-![Validation Loss](https://chatgpt.com/c/plots/validation_loss.png)
+![Validation Loss](plots/validation_loss.png)
 
 Validation loss is used to judge whether the model remains stable on unseen samples. It is also a useful signal for learning-rate scheduling and checkpoint selection.
 
 ### Confusion Matrix
 
-![Confusion Matrix](https://chatgpt.com/c/plots/confusion_matrix.png)
+![Confusion Matrix](plots/confusion_matrix.png)
 
 The confusion matrix provides class-level performance insight. It helps identify which Bangla characters are commonly confused and where the model may need more data, better augmentation, or architectural changes.
 
 ### Classification Report
 
-![Classification Report](https://chatgpt.com/c/plots/classification_report.png)
+![Classification Report](plots/classification_report.png)
 
 The classification report summarizes precision, recall, F1 score, and support for each class. It is useful for identifying whether the model performs consistently across common and rare characters.
 
