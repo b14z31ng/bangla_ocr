@@ -393,12 +393,6 @@ The evaluation package is designed to show both training dynamics and class-leve
 
 This curve shows how quickly the model learns discriminative character features during training. A steadily rising trend indicates that the CNN is fitting the handwriting patterns effectively and converging toward a stable solution.
 
-### Validation Accuracy
-
-![Validation Accuracy](plots/validation_accuracy.png)
-
-This curve reflects the model's generalization capability on unseen data. It is especially useful for detecting overfitting when compared against the training accuracy curve.
-
 ### Training Loss
 
 ![Training Loss](plots/training_loss.png)
