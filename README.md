@@ -608,7 +608,7 @@ The repository currently stores the Docker recipe as `dockerfile` in lowercase. 
 ### Install dependencies
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/b14z31ng/bangla_ocr>
 cd project-assignment
 python -m venv .venv
 source .venv/bin/activate
